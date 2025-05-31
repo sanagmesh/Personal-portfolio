@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b0326fca6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo" height="150px" width="150px">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificate">Skills</a></li>
+                <li><a href="#portfolio">Certifications</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FORNTEND DEVELOPER</p>
+            <h1>Hi, I'm Matam <br><span>Sangameswara Swamy </span><br>From India</h1>
+        </div>
+    </div>
+</div>
+<!--------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photo-background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="aboutme">I am passionate Data Science Engineer who loves 
+                    <br>to learn new tech and work on projects.I am an Enthusiastic <br>Self-motivated, reliable, responsible and hard working person. 
+                    <br>And I am pursuing Data Science from Rym Engineering College,
+                     Ballari.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>C CODE</span><br>DEVELOPER</li>
+                    <li><span>HTML & CSS</span><br>JAVA_SCRIPT</li>
+                    <li><span>JAVA</span><br>PROGRAMMING</li>
+                    <li><span>PYTHON</span><br>PROGRAMMING</li>
+                    <li><span>CEAD</span><br>Computer Aided <br>Engineering Design</li>
+                    <li><span>IOT</span><br>Internet Of Things</li>
+                    <li><span>POWER BI TABLEAU</span><br>VISUALIZATION</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="certification">
+                <ul>
+                    <li><span>C CODE</span><br>DEVELOPER</li>
+                    <li><span>WEB</span><br>DEVELOPEMENT</li>
+                    <li><span>IOT</span><br>INTERNET ON THINGS</li>
+                    <li><span>AI</span><br>Powered Marketing Data Analytics for Begineers</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>10th Class</span><br>CBSE-board[Dream World School],<br>Ballari</li>
+                    <li><span>12th Class</span><br>STATE-board[SRI CHAITANYA PU COLLEGE],<br>Ballari</li>
+                    <li><span>BE-CSE[DATA SCIENCE] DEPT.</span><br>Rao Bhadur Y Mahabaleshwarrapa Engineering College[Expected Graduate -2026]<br>Ballari</li>
+                </ul>
+            </div>
+    </div>
+</div>
+<!---------projects-------->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">My PROJECTS</h1>
+        <div class="certificate-list">
+            <div>
+                <i class="fa-solid fa-computer fa-beat-fade"></i>
+                <h2>NAMOORA SOBAGU(Hotel Management website)</h2>
+                <p>Skills Used (HTML,CSS&<br>JAVA_SCRIPT)
+                </p>
+                <a href="C:\Users\Admin\Desktop\Sangamesh\Sangamesh Portfolio\NAMOORA SOBAGU.png">Title page
+                    <img src="NAMOORA SOBAGU.png" height="50px" width="50px">
+                </a>
+
+            </div>
+            <div>
+                <i class="ddds"></i>
+                <h2>PERSONAL PORTFOLIO WEBSITE</h2>
+                <p>Skills Used (HTML,CSS,JAVA_SCRIPT,REACT JS)
+                </p>
+                <a href="C:\Users\Admin\Desktop\Sangamesh\Sangamesh Portfolio\PERSONAL.png">First page
+                    <img src="PERSONAL.png" height="50px" width="50px"></a>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>HR DATA ANALYSIS DASHBOARD</h2>
+                <p>Skills Used (POWER BI & TABLEAU)
+                </p>
+                <a href="C:\Users\Admin\Desktop\Sangamesh\Sangamesh Portfolio\DASHBOARD.png">Dashboard
+                    <img src="DASHBOARD.png" height="50px" width="50px">
+                </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>JODI<br>SANGAMESWARA SWAMI </h2>
+                <p>(MINI PROJECT)<br>Skills Used (HTML&CSS)
+                </p>
+                <a href="C:\Users\Admin\Desktop\Sangamesh\Sangamesh Portfolio\jodi.png">Title Page
+                    <img src="jodi.png" height="50px" width="50px">
+                </a>  
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>PERIODIC TABLE </h2>
+                <p>(MINI PROJECT)<br>Skills Used (HTML With STYLE Tag)
+                </p>
+                <a href="C:\Users\Admin\Desktop\Sangamesh\Sangamesh Portfolio\periodic table.png">Periodic Table
+                    <img src="periodic table.png" height="50px" width="50px">
+                </a>  
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------certificates------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C certificate.jpg">
+                <div class="layer">
+                    <h3>C PROGRAMMING</h3>
+                    <p>C program Serves as the starting point for program execution</p>
+                    <a href="#" ><i class="fas fa-external-link-alt">5</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web developer certificate.jpg">
+                <div class="layer">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Develops skills on <br>HTML, CSS & JAVA_SCRIPT</p>
+                    <a href="#" ><i class="fas fa-external-link-alt">5</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="workshop certificate.jpg">
+                <div class="layer">
+                    <h3>WORKSHOP on yIoT</h3>
+                    <p>IoT provides easy accsess to information from anywhere<br>at any time on any device,
+                        For example:Real-time data etc.,</p>
+                    <a href="#" ><i class="fas fa-external-link-alt">5</i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a> 
+    </div> 
+</div>
+<!-- ----------------------------contact------------------------ ---->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>7892026108</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="RESUME SANGAMESH 29-5-25.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea  name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ SWS. Made with <i class="fa-sharp fa-solid fa-heart"></i>by Easy Tutorials</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwGdpyt8cGiwINs8ehKk5PsLSHOIE7cDuUIB0Iv27lMN8K1m2PWRzwhxtIhl7MSiHVd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
